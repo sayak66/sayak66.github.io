@@ -236,6 +236,8 @@ input, select, textarea {
 		text-align: right;
 	}
 
+.short-text { display: none; }
+
 /* Row */
 
 	.row {
@@ -3096,6 +3098,9 @@ input, select, textarea {
 	@media screen and (max-width: 736px) {
 
 		/* Basic */
+
+		.short-text { display: inline-block; }
+    	.full-text { display: none; }
 
 			body, input, select, textarea {
 				font-size: 12pt;
